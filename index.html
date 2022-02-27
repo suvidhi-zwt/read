@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>project</title>
+</head>
+
+<body>
+    <h1>Readability score display</h1>
+    <textarea name="side" placeholder="Write your text here..." id="text" cols="70" rows="10"
+        style="white-space: pre-wrap;"></textarea>
+
+
+    <button id="btn">Check My Readability</button>
+
+    <p>Your readability score is: <span id="score"></span></p>
+    <p>Your readability kincade score is: <span id="kincadescores"></span></p>
+    <div id="myList">
+        <p id="words"></p>
+        <p id="syllable"></p>
+        <p id="totalsentence"></p>
+        <p id="sentence"></p>
+        <p id="textlength"></p>
+        <p id="subheading"></p>
+        <div id="text" contenteditable="true"></div>
+        <button id="button">toggle bold</button>
+
+
+    </div>
+
+
+    <table>
+        <thead>
+            <tr>
+                <th scope="col">
+                    <p>Flesch Reading Ease Score</p>
+                </th>
+
+                <th scope="col">
+                    <p>Estimated Grade</p>
+                </th>
+
+                <th scope="col">
+                    <p>Readability Level/Category</p>
+                </th>
+
+                <th scope="col">
+                    <p>Details</p>
+                </th>
+
+
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>100.0 — 90.0</td>
+                <td>5 <sup>th</sup> grade</td>
+                <td>Very Easy</td>
+                <td>Its very easy to read. An average 11-year-old student can easily understand it</td>
+            </tr>
+
+            <tr>
+                <td>90.0 — 80.0</td>
+                <td>6 <sup>th</sup> grade</td>
+                <td>Easy</td>
+                <td>Easy to read, Conversational English for consumers.</td>
+            </tr>
+
+            <tr>
+                <td>80.0 — 70.0</td>
+                <td>7<sup>th</sup> grade</td>
+                <td>Fair Easy</td>
+                <td>Fair Easy to read and undertand english.</td>
+            </tr>
+
+            <tr>
+                <td>70.0 — 60.0</td>
+                <td>8<sup>th</sup> & 9<sup>th</sup> grade </td>
+                <td> Plain English</td>
+                <td>Easily understood by 13 to 15-year-old students. Difficult for students younger than 13 Years</td>
+            </tr>
+
+            <tr>
+                <td>60.0 — 50.0</td>
+                <td> 10<sup>th</sup> to 12<sup>th</sup> grade</td>
+                <td> Fairly Difficult</td>
+                <td> Fairly Difficult to read</td>
+            </tr>
+
+            <tr>
+                <td>50.0 — 30.0</td>
+                <td>College </td>
+                <td> Difficult</td>
+                <td>Difficult to read. Best understood by College students.</td>
+            </tr>
+
+            <tr>
+                <td>30.0 — 0.0</td>
+                <td>College graduate </td>
+                <td> Very Difficult</td>
+                <td>Very difficult to read. Best understood by university graduates.</td>
+            </tr>
+
+        </tbody>
+    </table><br>
+
+</body>
+<script src="./index.js">
+
+
+</script>
+
+</html>

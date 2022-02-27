@@ -1,0 +1,59 @@
+body {
+  padding: 20px;
+  font-family: Georgia;
+}
+#text{
+  height: 200px;
+  width: 400px;
+  border: 1px solid black;
+  margin-top: 20px;
+}
+
+textarea {
+  min-height: 40vh;
+  width: 40vw;
+  display: block;
+  resize: none;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: rgb(211, 109, 211);
+  color: white;
+  display: block;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  margin: 0;
+  padding: 10px;
+  display: table;
+  text-align: left;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  padding: 10px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+p {
+  font-size: 20px;
+}
+
+div {
+  /* list-style-type: none; */
+  font-size: 20px;
+}
+span{
+  color: green;
+}
